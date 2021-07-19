@@ -22,6 +22,12 @@ export const CountdownItem = styled.li`
   padding: 25px;
   margin-right: 15px;
   margin-left: 15px;
+
+  @media(max-width: 800px) {
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px 0;
+  }
 `;
 
 export const CountdownNumber = styled.span`
@@ -31,6 +37,10 @@ export const CountdownNumber = styled.span`
   line-height: 1.3em;
   color: var(--color-secondary);
   margin: 0 auto;
+
+  @media(max-width: 800px) {
+    font-size: 25px;
+  }
 `;
 
 export const CountdownLabel = styled.p`
@@ -40,6 +50,10 @@ export const CountdownLabel = styled.p`
   line-height: 1.3em;
   letter-spacing: 1px;
   margin: 0 auto;
+
+  @media(max-width: 800px) {
+    font-size: 9px;
+  }
 `;
 
 export const ImgBlackFriday = styled.img`

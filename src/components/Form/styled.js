@@ -9,19 +9,13 @@ export const FormContainer = styled.section`
   padding-left: 100px;
   position: relative;
   overflow: hidden;
-/*
-  &::after {
-    content: '';
-    background-image: url({hape});
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-  } */
+
+  @media(max-width: 800px) {
+    padding: 0 30px;
+    justify-content: flex-start;
+    margin-top: 100px;
+    height: auto;
+  }
 `;
 
 
@@ -48,6 +42,10 @@ export const FormInput = styled.input`
 
   &.error {
     border-color: var(--color-secondary);
+  }
+
+  @media(max-width: 800px) {
+    width: 100%;
   }
 `;
 
