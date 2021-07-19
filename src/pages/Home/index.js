@@ -13,7 +13,7 @@ function Home() {
       </S.CountdownWrapper>
       <S.FormWrapper>
         <S.ShapeWrapper>
-          <img src={teste} />
+          <img src={teste} alt="Img icon"/>
         </S.ShapeWrapper>
         <Form />
       </S.FormWrapper>
