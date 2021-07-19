@@ -13,6 +13,7 @@ const Form = () => {
 
   const onSubmit = (data) => { ;
     localStorage.setItem('lead', JSON.stringify(data));
+    alert('Cadastro Concluído');
   }; // your form submit function which will invoke after successful validation
 
   return (

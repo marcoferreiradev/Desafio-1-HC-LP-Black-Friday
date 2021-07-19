@@ -24,5 +24,16 @@ export const CountdownWrapper = styled.div`
 export const FormWrapper = styled.div`
   width: 50%;
   height: 100vh;
+  position: relative;
 `;
 
+export const ShapeWrapper = styled.div`
+  position: absolute;
+  width: 96%;
+  /* height: 100%; */
+  right: 0;
+  bottom: 0;
+  img {
+    object-fit: cover;
+  }
+`;

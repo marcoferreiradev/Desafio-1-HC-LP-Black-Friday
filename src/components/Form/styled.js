@@ -7,16 +7,33 @@ export const FormContainer = styled.section`
   justify-content: center;
   align-items: flex-start;
   padding-left: 100px;
+  position: relative;
+  overflow: hidden;
+/*
+  &::after {
+    content: '';
+    background-image: url({hape});
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  } */
 `;
+
 
 export const FormWrapper = styled.form`
   display: flex;
   flex-direction: column;
   width: 100%;
+  z-index: 1;
 `;
 
 export const FormInput = styled.input`
-  background-color: #292830;
+  /* background-color: #292830; */
   padding: 10px;
   width: 63%;
   border-color: var(--color-third);
@@ -72,6 +89,7 @@ export const FormTitle = styled.div`
   font-weight: 700;
   line-height: 1.3em;
   position: relative;
+  margin-bottom: 12px;
 
   h1 {
     margin-top: -40px;

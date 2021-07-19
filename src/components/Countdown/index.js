@@ -57,7 +57,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 
 const Countdown = () => (
   <S.CountdownContainer
-    date={"2021-07-25T19:17:33.292Z"}
+    date={"2021-11-26T00:17:33.292Z"}
     renderer={renderer}
     daysInHours={false}
   />
