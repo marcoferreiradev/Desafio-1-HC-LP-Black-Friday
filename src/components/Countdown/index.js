@@ -4,7 +4,7 @@ import IconBlackFriday from '../../assets/icons/black-friday.svg';
 import * as S from './styled';
 
 // Random component
-const Completionist = () => <span>You are good to go!</span>;
+const Completionist = () => <span>Chegou a black friday \o/</span>;
 
 // Renderer callback with condition
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
