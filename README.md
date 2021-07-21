@@ -26,3 +26,9 @@ Foram usadas as seguintes ferramentas neste projeto:
 - [Reack Hook Form](https://react-hook-form.com/pt/)
 - [React Countdown](https://github.com/ndresx/react-countdown)
 - [Netlify](https://www.netlify.com/) para deploy
+
+
+## :art: Layout e assets ##
+
+O layout foi inspirado [nesta](https://dribbble.com/shots/14613977-BlackNov-Black-Friday-Landing-Page) página do [Dribble](https://dribbble.com/). Sendo o autor original [Sohel Nazmul](https://dribbble.com/sohelnazmul).
+
