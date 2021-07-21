@@ -24,4 +24,5 @@ Foram usadas as seguintes ferramentas neste projeto:
 - [React](https://pt-br.reactjs.org/)
 - [Styled Components](https://styled-components.com/)
 - [Reack Hook Form](https://react-hook-form.com/pt/)
+- [React Countdown](https://github.com/ndresx/react-countdown)
 - [Netlify](https://www.netlify.com/) para deploy
